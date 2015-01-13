@@ -23,7 +23,7 @@ public class MainActivity extends ActionBarActivity {
     protected void onResume() {
         super.onResume();
 
-        time = new MyCountDownTime(this,textView,5*60*1000,1000);
+        time = new MyCountDownTime(this,textView,10*60*1000,1000);
         time.start();
     }
 
